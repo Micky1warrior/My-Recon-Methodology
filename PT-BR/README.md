@@ -1,6 +1,6 @@
 <h1 align="center">「📚」Minha metodologia de reconhecimento</h1>
 
-<p align="center"><img src="map.png"></img></p>
+<p align="center"><img src="../map.png"></img></p>
 
 <p align="center">Olá visitante, este repositório foi criado para mostrar minha metodologia de recon que sigo para obter informações sobre um alvo. Espero ter ajudado.</p>
 

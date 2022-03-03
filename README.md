@@ -34,7 +34,7 @@ $ cat domains.txt | assetfinder -subs-only | httpx -silent | awk -F[/:] '{print 
 
 $ sublist3r -d scope.com -o extracted_subdomains.txt;cat extracted_subdomains.txt | httpx -silent -o verified_subdomains.txt;cat verified_subdomains.txt | awk -F[/:] '{print $4}' | anew > subdomains.txt;rm verified_subdomains.txt extracted_subdomains.txt
 
-$ subfinder -dL domains.txt -o a;cat a | httpx -silent | awk -F[/:] '{print $4}' | luck -u | tee -a subdomains.txt;rm a
+$ subfinder -dL domains.txt -o a;cat a | httpx -silent | awk -F[/:] '{print $4}' | sort -u | tee -a subdomains.txt;rm a
 ```
 
 * <a href="https://github.com/MrEmpy/BugBountyTricks">More on the subject</a>

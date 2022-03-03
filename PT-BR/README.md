@@ -57,7 +57,7 @@ $ nmap 192.168.0.0/24 -sV -T4 -sC
 
 # Parâmetros:
 
-Obter URLs com parâmetros é fundamental para análises futuras e também automatizar a busca de vulnerabilidades neles, costumo extraí-los com a ferramenta ```waybackurls``` e deixar comandos rodando em segundo plano para encontrar vulnerabilidades como XSS, SSRF, SQLI , Abrir Redirecionamento.
+Obter URLs com parâmetros é fundamental para análises futuras e também automatizar a busca de vulnerabilidades neles, costumo extraí-los com a ferramenta ```waybackurls``` e deixar comandos rodando em segundo plano para encontrar vulnerabilidades como XSS, SSRF, SQLI , Redirecionamento Aberto.
 
 Algumas combinações de ferramentas que utilizo durante a análise de vulnerabilidades:
 
